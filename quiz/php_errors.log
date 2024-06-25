@@ -1,0 +1,40 @@
+[25-Jun-2024 14:01:18 Asia/Taipei] PHP Warning:  Array to string conversion in C:\php_web\quiz\app.php on line 18
+[25-Jun-2024 14:21:33 Asia/Taipei] PHP Fatal error:  Uncaught Error: Method name must be a string in C:\php_web\quiz\controllers\APIController.php:16
+Stack trace:
+#0 C:\php_web\quiz\controllers\APIController.php(70): controller\APIController->handleRequest()
+#1 C:\php_web\quiz\app.php(21): controller\APIController->processRequest()
+#2 C:\php_web\quiz\app.php(28): APP->run()
+#3 {main}
+  thrown in C:\php_web\quiz\controllers\APIController.php on line 16
+[25-Jun-2024 14:23:41 Asia/Taipei] PHP Fatal error:  Uncaught Error: Method name must be a string in C:\php_web\quiz\controllers\APIController.php:18
+Stack trace:
+#0 C:\php_web\quiz\controllers\APIController.php(72): controller\APIController->handleRequest()
+#1 C:\php_web\quiz\app.php(21): controller\APIController->processRequest()
+#2 C:\php_web\quiz\app.php(28): APP->run()
+#3 {main}
+  thrown in C:\php_web\quiz\controllers\APIController.php on line 18
+[25-Jun-2024 14:48:04 Asia/Taipei] PHP Fatal error:  Uncaught Error: Call to undefined method controller\APIController::getHeaders() in C:\php_web\quiz\controllers\APIController.php:140
+Stack trace:
+#0 C:\php_web\quiz\app.php(21): controller\APIController->processRequest()
+#1 C:\php_web\quiz\app.php(28): APP->run()
+#2 {main}
+  thrown in C:\php_web\quiz\controllers\APIController.php on line 140
+[25-Jun-2024 14:55:03 Asia/Taipei] PHP Fatal error:  Uncaught Error: Call to undefined method APIModule\TEST::settingss() in C:\php_web\quiz\controllers\APIController.php:35
+Stack trace:
+#0 C:\php_web\quiz\controllers\APIController.php(76): controller\APIController->handlePost()
+#1 C:\php_web\quiz\app.php(21): controller\APIController->processRequest()
+#2 C:\php_web\quiz\app.php(28): APP->run()
+#3 {main}
+  thrown in C:\php_web\quiz\controllers\APIController.php on line 35
+[25-Jun-2024 15:02:27 Asia/Taipei] PHP Warning:  Undefined array key "emp_id" in C:\php_web\quiz\module\test.php on line 52
+[25-Jun-2024 15:02:27 Asia/Taipei] PHP Warning:  Undefined array key "emp_id" in C:\php_web\quiz\module\test.php on line 52
+[25-Jun-2024 15:02:27 Asia/Taipei] PHP Warning:  Undefined array key "emp_id" in C:\php_web\quiz\module\test.php on line 52
+[25-Jun-2024 15:12:40 Asia/Taipei] PHP Fatal error:  Uncaught ArgumentCountError: DateTime::format() expects exactly 1 argument, 2 given in C:\php_web\quiz\module\test.php:73
+Stack trace:
+#0 C:\php_web\quiz\module\test.php(73): DateTime->format()
+#1 C:\php_web\quiz\controllers\APIController.php(35): APIModule\TEST->setting2()
+#2 C:\php_web\quiz\controllers\APIController.php(76): controller\APIController->handlePost()
+#3 C:\php_web\quiz\app.php(21): controller\APIController->processRequest()
+#4 C:\php_web\quiz\app.php(28): APP->run()
+#5 {main}
+  thrown in C:\php_web\quiz\module\test.php on line 73
